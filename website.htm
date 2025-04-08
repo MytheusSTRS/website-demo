@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Διαδίκτυο των πραγμάτων</title>
+        <link rel="icon" type="image/x-icon" href="iotlogo.png">
+
+    </head>
+    <script>
+        function buttonPress() {
+            window.open("https://www.skroutz.gr/search?keyphrase=smart+home", "_blank")
+        }
+    </script>
+    <style>
+        #top_grid {
+            display: grid;
+            grid-template-columns: 2% 10% auto 4% 7% 4%;
+            margin: auto;
+        }
+
+        #bot_grid {
+            display: grid;
+            grid-template-columns: 2% 10% auto 7%;
+            margin: auto;
+        }
+
+        #img_grid {
+            display: flex;
+            justify-content: center;
+            grid-template-columns: 30% 30% 30%;
+            
+            
+        }
+
+        #img_grid div {
+            width: 33%; 
+            max-width: 450px;
+            margin: auto;
+        }
+
+        #keno {
+            height: 20px;
+        }
+        #big_keno {
+            height: 100px;
+        }
+
+        .drop_down {
+            width: 50%; 
+            display: none; 
+            margin: auto; 
+            border-radius: 10px;
+
+        }
+
+    </style>
+
+    <body style="background-color:lightblue; font-family: Helvetica;">
+        <div id="keno"></div>
+        <div class="grid" id="top_grid">
+            <div></div>
+            <div><img src="iotlogo.png" alt="Lyra" style="width: 80px;height: 50px;"></div>
+            <div></div>
+            <div><a title="Wikipedia" href="https://el.wikipedia.org/wiki/Διαδίκτυο_των_πραγμάτων">Wiki</a></div>
+            <a href="https://patras.sense.city/">Έξυπνη Πόλη</a>
+            <div><button type="button" onclick="buttonPress()">Buy</button></div>
+        </div>
+        <div id="big_keno"></div>
+        <div class = "grid" id="img_grid" >
+            <div><img src="iot2.jpg" alt="test" style="width: 80%;"><h4>Τι είναι</h4><p>Το Διαδίκτυο των πραγμάτων (ΔτΠ) ή Ίντερνετ των πραγμάτων (αγγλικά: Internet of things) αποτελεί το δίκτυο επικοινωνίας πληθώρας συσκευών, οικιακών συσκευών, αυτοκινήτων καθώς και κάθε αντικειμένου που ενσωματώνει ηλεκτρονικά μέσα, λογισμικό, αισθητήρες και συνδεσιμότητα σε δίκτυο ώστε να επιτρέπεται η σύνδεση και η ανταλλαγή δεδομένων.</p></div>
+            <div><img src="iot1.jpg" alt="test" style="width: 80%;"><h4>Πως λειτουργεί</h4><p>Οι συσκευές και τα αντικείμενα με ενσωματωμένους αισθητήρες συνδέονται με μια πλατφόρμα, η οποία περιλαμβάνει δεδομένα από τις διάφορες συσκευές και εφαρμόζει αναλυτικά στοιχεία για να μοιράζονται τις πιο πολύτιμες πληροφορίες με εφαρμογές που έχουν δημιουργηθεί για την αντιμετώπιση συγκεκριμένων αναγκών.</p></div>
+            <div><img src="iot3.png" alt="test" style="width: 80%;"><h4>Χρησιμότητα</h4><p>Η μετάβαση στην ψηφιακή εποχή είναι γεγονός. Η χρησιμότητα του IoT είναι μεγάλη και η ζήτηση από τους υποψήφιους αγοραστές ακόμα μεγαλύτερη. Ως επί το πλείστον, οι άνθρωποι αποζητούν την αυτονομία σε πολλά πράγματα γύρω τους. Από ένα αυτόματο ξυπνητήρι μέχρι το έξυπνο ψυγείο που ενημερώνει το χρήστη για βασικές ελλείψεις ή ακόμα και τη δυνατότητα ενεργοποίησης κλιματισμού πριν ακόμα ο χρήστης εισέλθει στο σπίτι.</p></div>
+        </div>
+        
+        <div id="big_keno"></div>
+        <div id="big_keno"></div>
+        <div style="text-align:center;">
+            <h1>FAQ</h1>
+        </div>
+        
+            <button class="drop_down" id="dd1" style="display: block;">
+                <h4>Τι είδους συσκευές περιλαμβάνει το IoT;</h4>
+            </button>
+            <div class="drop_down">
+                <p>
+                    Ψυγεία, θερμοστάτες, κάμερες ασφαλείας, λαμπτήρες, αισθητήρες θερμοκρασίας, smart watches, έξυπνοι καθρέφτες και άλλα.
+                </p>
+            </div>
+            <button class="drop_down" id="dd2" style="display: block;">
+                <h4>Ποια είναι τα οφέλη του IoT;</h4>
+            </button>
+            <div class="drop_down">
+                <p>
+                    Εξοικονόμηση ενέργειας, αυτοματοποίηση, άνεση, καλύτερη παρακολούθηση υγείας, βελτιωμένη παραγωγικότητα και μείωση κόστους.
+                </p>
+            </div>
+            <button class="drop_down" id="dd3" style="display: block;">
+                <h4>Πού χρησιμοποιείται το IoT στην καθημερινή ζωή;</h4>
+            </button>
+            <div class="drop_down">
+                <p>
+                    Σε έξυπνα σπίτια (smart homes), συστήματα ασφαλείας, ιατρικές συσκευές, "έξυπνα" αυτοκίνητα, αγροτική τεχνολογία και βιομηχανικές εφαρμογές.
+                </p>
+            </div>
+
+
+        <div id="big_keno"></div>
+        <div id="big_keno"></div>
+        
+        <div class ="grid" id ="bot_grid">
+            <div></div>
+            <div><img src="iotlogo.png" alt="Lyra" style="width: 80px;height: 50px;"></div>
+            <div style="width: auto; margin: auto;">
+                <a href="https://el.wikipedia.org/wiki/Διαδίκτυο_των_πραγμάτων">Wiki</a>
+                <a href="https://patras.sense.city/">Έξυπνη Πόλη</a>
+                <a href="https://www.cosmote.gr/cs/cosmote/gr/narrowband-iot.html">Cosmote IoT</a>
+                <a href="mailto:test@email.com">Contact us</a>
+            </div>
+            <div>
+                <a href="https://www.youtube.com/">
+                    <img src="yt.png" alt="Youtube" style="width: 50px; height: 45px;">
+                </a>
+                <a href="https://www.instagram.com/">
+                    <img src="instag.png" alt="Instagram"style="width: 50px; height: 50px;">
+                </a>
+            </div>
+        </div>
+        
+        <div style="text-align:right;">
+            © Copyright 2025
+        </div>
+
+        </body>
+
+
+
+        <script>
+            var x;
+            var dropdown = document.getElementsByClassName("drop_down");
+            
+            for (x = 0; x < dropdown.length; x++) {
+                dropdown[x].addEventListener("click", 
+                function() {
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script>
+
+        
+</html>
